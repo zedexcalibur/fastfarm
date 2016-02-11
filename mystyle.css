@@ -1,0 +1,408 @@
+@media (max-width: 199px) {
+    .titletext { font-size: 100%; }
+}
+
+@media (min-width: 200px) {
+    .titletext { font-size: 500%; }
+}
+
+@media (min-width: 600px) {
+    .titletext { font-size: 700%; }
+}
+
+@media (min-width: 850px) {
+    .titletext { font-size: 1000%; }
+}
+
+  .noTitleStuff .ui-dialog-titlebar {display:none}
+
+  .ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix{border:none}
+
+  .ui-dialog-buttonpane {
+      text-align: center;
+      padding: 2px;
+  }
+	
+	.demoHeaders {
+		margin-top: 2em;
+	}
+	
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	
+	.ui-dialog, .ui-dialog-content, .ui-dialog-buttonpane
+	{
+	   background-color: #007500;
+	   color: #000000;
+	   background-image: none;
+	   text-align: center;
+	}
+	
+	.ui-dialog
+	{
+	    border: 2px solid;
+	}
+	
+	.ui-dialog-content
+	{
+	   padding: 2px;
+	}
+	
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	
+	body {
+    background-color: #33CC33;
+    margin: 0;
+    position: relative;
+  }
+  
+  div {
+    font-family: "Verdana", serif;
+    font-weight: bold
+  }
+  
+  button {
+    background-color: green;
+    color: black;
+    border: thin groove #000000;
+    vertical-align: bottom;
+  }
+	
+	select {
+		width: 200px;
+	}
+
+  table.center {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  td {
+    padding: 5px
+  }
+
+  td.left {
+    text-align: left;
+  }
+
+  td.right {
+   text-align: right;
+  }
+
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .col-lg-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .col-lg-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .title {
+    width: 100%; 
+    height: 200px;
+    text-align: center; 
+    background-color: #007500; 
+    color: #FFFF66; 
+  }
+  
+  .buttonarea {
+    width: 100%; 
+    height: 30px;
+    text-align: center;
+    background-color: #007500; 
+  }
+   
+  .thinheader, .fatheader, .openablethinheader, .openablefatheader {
+    float: left;
+    border-left: 1px solid; 
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 5px;
+    background-color: #00FF00
+  }
+  
+  .thinheader, .openablethinheader {
+    width: 16.6%
+  }
+  
+  .fatheader, .openablefatheader {
+    width: 16.7%
+  }
+  
+  .openablethinheader:hover, .openablefatheader:hover {
+    background-color: #007500;
+  }
+  
+  .cropdiv {
+    float: left; 
+    width: 100%; 
+    border-left: 1px solid; 
+    padding: 5px; 
+    padding-bottom: 10px; 
+    background-color: #33CC33;
+  }
+  
+  .croppicker {
+    float: left;
+    width: 52px;
+  }
+  
+  .cropinstructions {
+    float: left; 
+    height: 52px; 
+    width: 100%;
+  }
+  
+  .landdiv {
+    float: left; 
+    width: 411px; 
+    text-align: center;
+  }
+  
+  .field, .coop, .toplesscoop, .orchard {
+    background-color: #663300;
+    height: 40px;
+    width: 40px;
+    float: left;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+  }
+  
+  .coop, .toplesscoop {
+    border-bottom: 1px solid black;
+  }
+   
+  .toplesscoop {
+    border-top: 0px;
+  }
+  
+  .landbottom {
+    background-color:#000000; 
+    clear:both; 
+    height:1px; 
+    width:401px;
+  }
+  
+  .animalareatall, .animalareashort {
+    clear: left; 
+    width: 100%; 
+    border-top: 1px solid; 
+    padding-left: 5px;  
+    background-color: #33CC33; 
+    display: none;
+  }
+  .animalareatall {
+    height: 156px; 
+  }
+  .animalareashort {
+    height: 104px;
+  }
+  
+  .titlebar {
+    clear: left;
+    width: 100%; 
+    border-left: 1px solid; 
+    border-bottom: 1px solid; 
+    padding: 5px; 
+    height: 40px; 
+    background-color: #33CC33;
+  }
+  
+  .thinorderbackground, .fatorderbackground {
+    float: left; 
+    background-color: #FFFF66;  
+    border-bottom: 1px solid; 
+    border-left: 1px solid; 
+    height: 250px; 
+    text-align: center;
+  }
+  
+  .fatorderbackground {
+    width: 16.7%;
+  }
+  
+  .thinorderbackground {
+    width: 16.6%;
+  }
+  
+  .fo {
+    background-color: #33CC33;
+    border: thin groove #000000;
+    vertical-align: bottom;
+  }
+  
+  .fo:disabled {
+    background-color: green;
+  }
+  
+  .appliance {
+    float: clear; 
+    background-color: #33CC33; 
+    width: 100%; 
+    border-bottom: 1px solid; 
+    border-left: 1px solid; 
+    height: 52px;
+  }
+  
+  .currentlybox {
+    float: left; 
+    height: 52px; 
+    width: 29.9%;
+  }
+  
+  .collectbutton {
+    float: left; 
+    width: 100px; 
+    height: 52px; 
+    text-align: center; 
+    border-left: 1px solid; 
+    border-right: 1px solid;
+  }
+  
+  .productline {
+    background-color: #FFFF66; 
+    float: clear; 
+    width: 100%; 
+    border-left: 1px solid; 
+    border-bottom: 1px solid; 
+    height: 60px;
+  }
+  
+  .prodpic {
+    padding-top: 5px; 
+    float: left; 
+    height: 60px; 
+    border-right: 1px solid; 
+    width: 10%; 
+    text-align: center
+  }
+  
+  .ingbox {
+    float: left; 
+    height: 60px; 
+    border-right: 1px solid; 
+    width: 20%
+  }
+  
+  .makebutton {
+    background-color: #00FF00;
+    border-bottom: 1px solid; 
+    float: left; 
+    width: 10%; 
+    height: 60px; 
+    text-align: center;
+  }
+  
+  .makebutton:hover {
+    background-color: #007500;
+    border-bottom: 1px solid;
+  }
+  
+  .valigned, .valignedcentered {
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+  }
+  
+  .titletext {
+    font-weight: normal;
+    font-family: 'Berlin Sans FB', Verdana, sans-serif; 
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+  }
+  
+  .valignedcentered {
+    text-align: center;
+  }
+ 
+  .rightboundary {
+    background-color: black;
+    height: 40px;
+    width: 1px;
+    float: left;
+  }
+  
+  .leftfloater, .thinleftfloater, .fatleftfloater {
+    float: left;
+  }
+  
+  .thinleftfloater {
+    width: 20px;
+  }
+  
+  .fatleftfloater {
+    width: 52px;
+  }
+  
+  .wide, .widelow, .wideshort, .wideclear {
+    width: 100%;
+  }
+  
+  .widelow {
+    height: 52px;
+  }
+  
+  .wideshort {
+    height: 42px;
+  }
+  
+  .wideclear {
+    clear: left;
+  }
+  
+  .centeredlow {
+    text-align: center;
+    height: 52px;
+  }
+  
+  .clearlow {
+    float: clear;
+    height: 52px;
+  }
+  
+  .rightalign {
+     text-align: right;
+  }

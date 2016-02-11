@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fast Farm</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="title" id="title">
+            <div class="titletext">FAST FARM</div>
+          </div>
+          <div class="buttonarea">
+            <button id="restorebutton">Restore Saved Game</button> 
+            <button id="savebutton">Save Game</button> 
+          </div>
+        </div>
+        <div class="thinheader">Level: <span id="leveltext"></span></div>
+        <div class="fatheader">Exp: <span id="exptext1"></span>/<span id="exptext2"></span></div>
+        <div class="fatheader">Money: <span id="moneytext"></span></div>
+        <div id="openbarn" class="openablefatheader">Open barn (<span class="barntext1"></span>/<span class= "barntext2"></span>)</div>
+        <div id="opensilo" class="openablefatheader">Open silo (<span class="silotext1"></span>/<span class="silotext2"></span>)</div>
+        <div id="openshop" class="openablethinheader">Open shop</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="cropdiv">
+            <div class="leftfloater" id="croppics"></div>
+            <!-- Div for fields. -->
+            <div class="landdiv">
+              <div class="cropinstructions">
+                <div class="valigned">Click to plant brown fields and harvest yellow ones</div>
+              </div>
+              <div id="land">
+              </div>
+            </div>
+          </div>
+          <div id="animals"><div style="height: 100px"></div></div>
+          <div id="orchard"><div style="height: 100px"></div></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="titlebar">
+            <div class="valigned">Orders</div>
+          </div>
+          <div id="orders"></div>
+          <div class="titlebar">
+            <div class="valigned">Machines</div>
+          </div>
+          <div id="machines"></div>    
+        </div>  
+      </div>
+    </div>
+
+    <div id="shop" class="dialog">
+      <h2>Welcome to the shop</h2>
+      <table class="center" id="shopcontents"></table>
+    </div>
+
+    <div id="barn" class="dialog">
+      <h2>Your barn</h2>
+      <table id="barntext" class="center"></table>
+      <p>Barn capacity: <span class="barntext1">3</span>/<span class="barntext2">50</span></p>
+    </div>
+
+    <div id="silo" class="dialog">
+      <h2>Your silo</h2>
+      <table id="silotext" class="center"></table>
+      <p>Silo capacity: <span class="silotext1">6</span>/<span class="silotext2">50</span></p>
+    </div>
+
+    <div id="leveldialog" class="dialog"></div>
+
+    <div id="dialog1" class="dialog">
+      <h2>Welcome to Fast Farm</h2>
+      <p>It's extremely similar to HayDay (and some of the graphics have been shamelessly stolen - I'll replace them later).</p>
+      <p>But everything happens much more quickly!</p>
+      <p>Why not try planting some wheat?</p>
+      <p>Or visiting the shop?</p>
+    </div>
+    <script src="fastclick.js"></script>
+    <script src="external/jquery/jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="fastfarm.js"></script>
+  </body>
+</html>
